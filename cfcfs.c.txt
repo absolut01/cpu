@@ -20,7 +20,7 @@
  
     for(i=1;i<n;i++)
     {
-  //Calculating waiting time !!
+  
         wt[i]=0;
         for(j=0;j<i;j++)
             wt[i]+=bt[j];
@@ -30,7 +30,7 @@
  
     for(i=0;i<n;i++)
     { 
-       //Calculating turnarround time!!
+       
         tat[i]=bt[i]+wt[i];
         avwt+=wt[i];
         avtat+=tat[i];
